@@ -39,7 +39,7 @@
      font-weight: 400;
      overflow-x: hidden;
      -webkit-font-smoothing: antialiased;
-     cursor: none;
+     
 
  }
 
@@ -58,31 +58,6 @@
      background-size: 257px auto;
      pointer-events: none;
      z-index: 999;
- }
-
- /* ─── CURSOR ─────────────────────────────── */
- #cur {
-     position: fixed;
-     width: 7px;
-     height: 7px;
-     background: var(--ac);
-     border-radius: 50%;
-     pointer-events: none;
-     z-index: 9999;
-     transform: translate(-50%, -50%);
-     transition: width .2s, height .2s;
- }
-
- #ring {
-     position: fixed;
-     width: 30px;
-     height: 30px;
-     border: 1px solid var(--acgs);
-     border-radius: 50%;
-     pointer-events: none;
-     z-index: 9998;
-     transform: translate(-50%, -50%);
-     transition: width .28s, height .28s, border-color .28s;
  }
 
  /* ─── NAV ─────────────────────────────────── */
@@ -1208,7 +1183,7 @@
      position: relative;
      overflow: hidden;
      transition: background .4s;
-     cursor: none
+     
  }
 
  .sc::before {
@@ -1329,7 +1304,7 @@
      position: relative;
      overflow: hidden;
      transition: background .4s;
-     cursor: none
+     
  }
 
  .sc::before {
